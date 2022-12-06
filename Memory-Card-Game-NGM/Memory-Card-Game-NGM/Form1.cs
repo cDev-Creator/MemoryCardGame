@@ -51,7 +51,30 @@ namespace Memory_Card_Game_NGM
             secondClick = clickedLabel;
             secondClick.ForeColor = Color.Black;
 
-            timer1.Start();
+            WinCheck();
+
+            if ( firstClick.Text == secondClick.Text)
+            {
+                firstClick = null;
+                secondClick = null;
+            }
+            else
+                timer1.Start();
+        }
+
+        private void WinCheck()
+        {
+            Label label;
+            for (int s = 0; s < tableLayoutPanel1.Controls.Count; s++)
+            {
+                label = tableLayoutPanel1.Controls[s] as Label;
+
+                if (label != null && label.ForeColor == label.BackColor)
+                    return;
+            }
+
+            MessageBox.Show("You found all of the matches!");
+            Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
