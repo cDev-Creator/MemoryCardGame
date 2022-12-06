@@ -22,21 +22,47 @@ namespace Memory_Card_Game_NGM
 
         Label firstClick, secondClick;
 
-
         public Form1()
         {
             InitializeComponent();
             AssignIcons();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label_Click(object sender, EventArgs e)
         {
+            if (firstClick != null && secondClick != null)
+                return;
+           
+            Label clickedLabel = sender as Label;
 
+            if (clickedLabel == null)
+                return;
+
+            if (clickedLabel.ForeColor == Color.Black)
+                return;
+
+            if(firstClick == null)
+            {
+                firstClick = clickedLabel;
+                firstClick.ForeColor = Color.Black;
+                return;
+            }
+
+            secondClick = clickedLabel;
+            secondClick.ForeColor = Color.Black;
+
+            timer1.Start();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
+            timer1.Stop();
 
+            firstClick.ForeColor = firstClick.BackColor;
+            secondClick.ForeColor = secondClick.BackColor;
+
+            firstClick = null;
+            secondClick = null;
         }
 
         private void AssignIcons()
