@@ -21,5 +21,10 @@ namespace Memory_Card_Game_NGM
         {
 
         }
+
+        private void u_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
