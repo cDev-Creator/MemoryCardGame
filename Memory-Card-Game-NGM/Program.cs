@@ -16,7 +16,7 @@ namespace Memory_Card_Game_NGM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new homePage());
         }
     }
 }
