@@ -66,6 +66,7 @@ namespace Memory_Card_Game_NGM
             this.harderBtn.TabIndex = 4;
             this.harderBtn.Text = "Harder";
             this.harderBtn.UseVisualStyleBackColor = true;
+            this.harderBtn.Click += new System.EventHandler(this.harderBtn_Click);
             // 
             // hardestBtn
             // 
@@ -76,6 +77,7 @@ namespace Memory_Card_Game_NGM
             this.hardestBtn.TabIndex = 5;
             this.hardestBtn.Text = "Hardest";
             this.hardestBtn.UseVisualStyleBackColor = true;
+            this.hardestBtn.Click += new System.EventHandler(this.hardestBtn_Click);
             // 
             // label1
             // 

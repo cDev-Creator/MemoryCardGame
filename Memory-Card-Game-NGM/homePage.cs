@@ -19,8 +19,26 @@ namespace Memory_Card_Game_NGM
 
         private void hardBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var hardLvl = new hardLvl();
+            hardLvl.Closed += (s, args) => this.Close();
+            hardLvl.Show();
+        }
 
+        private void harderBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var harderLvl = new harderLvl();
+            harderLvl.Closed += (s, args) => this.Close();
+            harderLvl.Show();
+        }
 
+        private void hardestBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var hardestLvl = new hardestLvl();
+            hardestLvl.Closed += (s, args) => this.Close();
+            hardestLvl.Show();
         }
     }
 }
