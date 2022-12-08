@@ -16,5 +16,10 @@ namespace Memory_Card_Game_NGM
         {
             InitializeComponent();
         }
+
+        private void hardestLvl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

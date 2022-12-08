@@ -72,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="harderLvl.resx">
+      <DependentUpon>harderLvl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hardestLvl.resx">
+      <DependentUpon>hardestLvl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="hardLvl.resx">
       <DependentUpon>hardLvl.cs</DependentUpon>
     </EmbeddedResource>

@@ -9,3 +9,5 @@ C:\Users\mccoy\source\repos\Memory-Card-Game-NGM\Memory-Card-Game-NGM\obj\Debug\
 C:\Users\mccoy\source\repos\Memory-Card-Game-NGM\Memory-Card-Game-NGM\obj\Debug\Memory-Card-Game-NGM.pdb
 C:\Users\mccoy\source\repos\Memory-Card-Game-NGM\Memory-Card-Game-NGM\obj\Debug\Memory_Card_Game_NGM.homePage.resources
 C:\Users\mccoy\source\repos\Memory-Card-Game-NGM\Memory-Card-Game-NGM\obj\Debug\Memory_Card_Game_NGM.hardLvl.resources
+C:\Users\mccoy\source\repos\Memory-Card-Game-NGM\Memory-Card-Game-NGM\obj\Debug\Memory_Card_Game_NGM.hardestLvl.resources
+C:\Users\mccoy\source\repos\Memory-Card-Game-NGM\Memory-Card-Game-NGM\obj\Debug\Memory_Card_Game_NGM.harderLvl.resources
