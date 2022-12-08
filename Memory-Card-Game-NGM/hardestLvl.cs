@@ -17,7 +17,7 @@ namespace Memory_Card_Game_NGM
         List<string> icons = new List<string>()
         {
             "b","b", "E","E", "!", "!", "k", "k","G", "G","O","O","Y","Y","j","j","z","z",
-            "m", "m", "w", "w", "X", "X", "p", "p", "T","T","U","U","n","n","N","N","t","t"
+            "m", "m", "w", "w", "X", "X", "p", "p", "T","T","U","U","K","K","N","N","t","t"
         };
 
         Label firstClick, secondClick;
@@ -65,12 +65,12 @@ namespace Memory_Card_Game_NGM
             secondClick.ForeColor = Color.Black;
 
             WinCheck();
-           //f (clickCount > 31)
-            //
-             // String attempts = clickCount.ToString();
-             // MessageBox.Show("You lost. It took you " + attempts + " attempts. Better luck next Time.");
-              //Close();
-            //
+           if (clickCount > 80) { 
+            
+              String attempts = clickCount.ToString();
+              MessageBox.Show("You lost. It took you " + attempts + " attempts. Better luck next Time.");
+              Close();
+            }
 
             if (firstClick.Text == secondClick.Text)
             {

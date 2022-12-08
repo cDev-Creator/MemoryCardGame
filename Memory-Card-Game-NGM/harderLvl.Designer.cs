@@ -98,6 +98,7 @@ namespace Memory_Card_Game_NGM
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 2, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.139131F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.tableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -224,7 +225,7 @@ namespace Memory_Card_Game_NGM
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(116, 117);
             this.label17.TabIndex = 17;
-            this.label17.Text = "y";
+            this.label17.Text = "\r\nMemory";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label17.Click += new System.EventHandler(this.label_click);
             // 
@@ -431,9 +432,9 @@ namespace Memory_Card_Game_NGM
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Webdings", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textBox1.Font = new System.Drawing.Font("MV Boli", 15.02609F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.textBox1.Location = new System.Drawing.Point(253, 243);
             this.textBox1.Margin = new System.Windows.Forms.Padding(0);
             this.textBox1.MaxLength = 32790;
@@ -441,6 +442,7 @@ namespace Memory_Card_Game_NGM
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 117);
             this.textBox1.TabIndex = 26;
+            this.textBox1.Text = "\r\nMemory\r\nCards ";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 

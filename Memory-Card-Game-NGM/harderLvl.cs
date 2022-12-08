@@ -62,7 +62,7 @@ namespace Memory_Card_Game_NGM
             secondClick.ForeColor = Color.Black;
 
             WinCheck();
-            if (clickCount > 61)
+            if (clickCount > 45)
             {
                 String attempts = clickCount.ToString();
                 MessageBox.Show("You lost. It took you " + attempts + " attempts. Better luck next Time.");
